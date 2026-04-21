@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import BASE_URL from "./api/config";
 
 const API = "http://localhost:8080/tasks";
 
