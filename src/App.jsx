@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import BASE_URL from "./api/config";
 
-const API = "http://localhost:8080/tasks";
+const API = "https://taskflow-api-production-f091.up.railway.app/tasks";
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
